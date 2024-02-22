@@ -1,0 +1,12 @@
+article {
+    /* Each article will be set to at the same ration as the screen widens or shrinks */
+    flex-grow: 1;
+  }
+  
+  section {
+    /* set the layout engine to flex */
+    display: flex;
+  
+    /* force elements that won't fit on the screen to a new row */
+    flex-wrap: wrap;
+  }
