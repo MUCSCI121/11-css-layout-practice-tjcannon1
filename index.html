@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Layout</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      header {
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+
+      header,
+      footer {
+        background-color: lightblue;
+        text-align: center;
+        margin: 0px;
+      }
+      nav {
+        background-color: bisque;
+      }
+      a {
+        font-weight: bold;
+        color: blue;
+        margin: 15px;
+        padding: 5px;
+      }
+
+      a:hover {
+        background-color: black;
+        color: white;
+        text-decoration: none;
+      }
+
+      section {
+        background-color: lightgreen;
+        padding: 5px;
+      }
+
+      article {
+        border: 2px dashed black;
+        margin: 2px;
+        padding: 5px;
+      }
+    </style>
+    <!-- <link href="./float.css" rel="stylesheet" /> -->
+    <!-- <link href="./flexbox.css" rel="stylesheet" /> -->
+    <link href="./flexboxNavOnLeft.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <h1>My Amazing Page</h1>
+    </header>
+    <div>
+      <nav>
+        <a href="https://www.millersville.edu/computerscience" target="_blank"
+          >Computer Science</a
+        >
+        <a href="https://www.millersville.edu/math" target="_blank">Math</a>
+        <a href="https://www.millersville.edu/history" target="_blank"
+          >History</a
+        >
+      </nav>
+      <section>
+        <article>
+          <h2>Computer Science</h2>
+          <p>Turning words into 1s and 0s</p>
+        </article>
+        <article>
+          <h2>Math</h2>
+          <p>Defining the formulats that make the world work</p>
+        </article>
+        <article>
+          <h2>History</h2>
+          <p>You do it, we record it</p>
+        </article>
+      </section>
+    </div>
+    <footer>&copy; Copywrite 'sville Industries</footer>
+  </body>
+</html>
