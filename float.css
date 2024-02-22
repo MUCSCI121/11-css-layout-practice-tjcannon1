@@ -1,0 +1,18 @@
+article {
+    /* Aligns element to the left of the page */
+    float: left;
+  
+    /* Sets the width of the articles to 32% of the available space */
+    width: 32%;
+  }
+  
+  section::after {
+    /* create an empty element after the section element */
+    content: "";
+  
+    /* set the layout engine to block mode */
+    display: block;
+  
+    /* Ensures next element is pushed below the floated elements */
+    clear: both;
+  }
